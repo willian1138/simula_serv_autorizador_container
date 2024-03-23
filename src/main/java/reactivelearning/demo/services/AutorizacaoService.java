@@ -25,9 +25,9 @@ public class AutorizacaoService {
 
         int id = random.nextInt(Math.abs((int) System.currentTimeMillis()));
         if( id % 2 == 0) {
-            return Optional.of(new Autorizacao("autorizado"));
+            return Optional.of(new Autorizacao("autorizado!><"));
                 } else {
-            return Optional.of(new Autorizacao("nao autorizado"));
+            return Optional.of(new Autorizacao("nao autorizado!><><>?<<"));
         }
     }
 
